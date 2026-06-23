@@ -1,0 +1,48 @@
+<div id="sc-root" class="sc-root" data-theme="light">
+
+  <div class="sc-top">
+    <div class="sc-stat">
+      <div class="sc-stat__num ok" id="sc-total-ok">0</div>
+      <div class="sc-stat__lbl">Running</div>
+    </div>
+    <div class="sc-stat">
+      <div class="sc-stat__num crit" id="sc-total-down">0</div>
+      <div class="sc-stat__lbl">Stopped</div>
+    </div>
+    <div class="sc-stat">
+      <div class="sc-stat__num total" id="sc-total-all">0</div>
+      <div class="sc-stat__lbl">Total</div>
+    </div>
+  </div>
+
+  <div class="sc-header">
+    <div class="sc-header__left">
+      <div class="sc-header__title">Monitoramento de Serviços - Windows</div>
+      <div class="sc-header__sub" id="sc-sub">—</div>
+    </div>
+    <div class="sc-header__right">
+      <span class="sc-pill sc-pill--ok"   id="sc-cnt-ok"   style="display:none"></span>
+      <span class="sc-pill sc-pill--crit" id="sc-cnt-down" style="display:none"></span>
+    </div>
+  </div>
+
+  <div class="sc-toolbar">
+    <input id="sc-filter" class="sc-input" type="search" placeholder="Filtrar servidor ou serviço…" />
+    <button id="sc-clear" class="sc-btn" type="button">Limpar</button>
+    <div class="sc-sort-wrap">
+      <span class="sc-sort-label">Ordenar:</span>
+      <button id="sc-sort-name"   class="sc-sort-btn sc-sort-btn--active" type="button">Nome</button>
+      <button id="sc-sort-status" class="sc-sort-btn" type="button">Status</button>
+      <button id="sc-sort-uptime" class="sc-sort-btn" type="button">Serviço</button>
+    </div>
+  </div>
+
+  <div class="sc-list" id="sc-list">
+    <div class="sc-empty" id="sc-empty">Aguardando dados…</div>
+  </div>
+
+  <div class="sc-footer">
+    <span id="sc-footer-ts">—</span>
+  </div>
+
+</div>
