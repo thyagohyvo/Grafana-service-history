@@ -27,7 +27,7 @@ Painel de monitoramento de serviços Windows via **Grafana HTML Graphics** + **Z
 
 ## Fonte de dados esperada
 
-### series[0] -Status atual
+### series[0] - Status atual
 
 | Coluna | Tipo | Descrição |
 |---|---|---|
@@ -36,7 +36,7 @@ Painel de monitoramento de serviços Windows via **Grafana HTML Graphics** + **Z
 | `Status` | number | Estado do serviço (ver tabela abaixo) |
 | `ItemId` | string | ID do item para correlação com histórico |
 
-### series[1] -Histórico 24h
+### series[1] - Histórico 24h
 
 | Coluna | Tipo | Descrição |
 |---|---|---|
@@ -61,16 +61,16 @@ Painel de monitoramento de serviços Windows via **Grafana HTML Graphics** + **Z
 
 ## Funcionalidades
 
-- **Totalizador** -Running / Stopped / Total no topo do painel
-- **Filtro** -busca por servidor ou serviço em tempo real
-- **Ordenação** -por Nome, Status ou Serviço
-- **Badge de status** -faixa lateral colorida + badge textual por card
-- **Modal de histórico** -gráfico step chart das últimas 24h com:
+- **Totalizador** - Running / Stopped / Total no topo do painel
+- **Filtro** - busca por servidor ou serviço em tempo real
+- **Ordenação** - por Nome, Status ou Serviço
+- **Badge de status** - faixa lateral colorida + badge textual por card
+- **Modal de histórico** - gráfico step chart das últimas 24h com:
   - Número de quedas
   - Tempo total parado
   - Disponibilidade em %
-- **Tema automático** -detecta dark/light do Grafana via `htmlGraphics.theme.isDark`
-- **Estado persistente** -filtro e ordenação sobrevivem a re-renders via `window.__sc_svc_state__`
+- **Tema automático** - detecta dark/light do Grafana via `htmlGraphics.theme.isDark`
+- **Estado persistente** - filtro e ordenação sobrevivem a re-renders via `window.__sc_svc_state__`
 
 ---
 
