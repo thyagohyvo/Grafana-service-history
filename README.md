@@ -3,7 +3,7 @@
 Painel de monitoramento de serviços Windows via **Grafana HTML Graphics** + **Zabbix**, exibindo status em tempo real com histórico de 24h por item.
 
 ---
-<img width="1818" height="822" alt="image" src="https://github.com/user-attachments/assets/6dcf4230-c54d-41bc-ab2f-01678b031912" />
+![preview](https://raw.githubusercontent.com/thyagohyvo/Grafana-service-history/main/card-gif03.gif)
 
 ## Stack
 
